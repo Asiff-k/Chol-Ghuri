@@ -1,0 +1,2 @@
+# Composer packages are loaded by PHP, never opened in the browser.
+Require all denied

@@ -1,0 +1,2 @@
+# Error logs must never be downloadable.
+Require all denied

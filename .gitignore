@@ -1,0 +1,21 @@
+# Private settings (SMTP password etc.) - NEVER commit. Copy config/.env.example instead.
+config/.env
+
+# Error logs
+logs/*
+!logs/.htaccess
+
+# Files uploaded by users / admins (keep the folders and their protection)
+uploads/avatars/*
+!uploads/avatars/.gitkeep
+uploads/images/*
+!uploads/images/.gitkeep
+
+# Approved UI design screenshots (kept locally only)
+design/
+
+# Editor / OS files
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

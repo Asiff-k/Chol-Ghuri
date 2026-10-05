@@ -1,0 +1,7 @@
+# Don't list folder contents in the browser
+Options -Indexes
+
+# Block direct downloads of the database file, notes, Composer files and env files
+<FilesMatch "(\.(sql|md|lock)|composer\.json|\.env.*)$">
+    Require all denied
+</FilesMatch>
